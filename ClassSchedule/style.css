@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+    text-wrap: nowrap;
+  }
+  table,
+  td,
+  th {
+    border: 1px black solid;
+    padding: 2px;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .item {
+    min-width: 80px;
+    height: 50px;
+  }
+  
