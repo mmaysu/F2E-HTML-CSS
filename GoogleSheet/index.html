@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>google sheet</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="title">
+        <h1>F2E02 表單練習</h1>
+        <p>僅供新尖兵 F2E02 表單切版練習作業</p>
+        <hr />
+        <p>
+          <span class="font-blue">登入 Google</span> 即可儲存進度。<span
+            class="font-blue"
+            >瞭解詳情</span
+          >
+        </p>
+        <hr />
+        <p><span class="font-red">*表示必填問題</span></p>
+      </div>
+      <div class="question">
+        <p>姓名<span class="font-red">*</span></p>
+        <input type="text" placeholder="您的回答" />
+      </div>
+      <div class="question">
+        <p>信箱<span class="font-red">*</span></p>
+        <input type="mail" placeholder="您的回答" />
+      </div>
+      <div class="question">
+        <p>生日</p>
+        <p><span class="font-greynsmall">日期</span></p>
+        <input type="date" max="2024-12-31" min="2024-01-01"/>
+      </div>
+      <div class="question">
+        <p>想跟老師說悄悄話</p>
+        <input type="text" placeholder="您的回答" />
+      </div>
+      <div class="question">
+        <p>喜歡的顏色</p>
+        <label> <input type="radio" name="color" value="1" />黃 </label><br />
+        <label> <input type="radio" name="color" value="2" />綠 </label><br />
+        <label> <input type="radio" name="color" value="3" />紅 </label>
+      </div>
+      <div class="question">
+        <p>喜歡吃的飲食類型</p>
+        <label><input type="checkbox" name="eat" value="1" />中式 </label><br />
+        <label><input type="checkbox" name="eat" value="1" />義式 </label><br />
+        <label><input type="checkbox" name="eat" value="1" />日式 </label
+        ><br /><label><input type="checkbox" name="eat" value="1" />韓式 </label
+        ><br /><label><input type="checkbox" name="eat" value="1" />美式 </label
+        ><br /><label
+          ><input type="checkbox" name="eat" value="1" />泰式
+        </label>
+      </div>
+      <div class="question">
+        <p>最想去的國家</p>
+        <select name="" id="">
+          <option value="1" disabled selected>選擇</option>
+          <optgroup label="亞洲">
+            <option value="1">日本</option>
+            <option value="2">韓國</option>
+            <option value="3">泰國</option>
+          </optgroup>
+          <optgroup label="歐洲">
+            <option value="4">德國</option>
+            <option value="5">英國</option>
+          </optgroup>
+          <optgroup label="美洲">
+            <option value="6">加拿大</option>
+            <option value="7">美國</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="button">
+        <button type="submit" class="submit">提交</button>
+        <button type="reset" class="reset">清除表單</button>
+      </div>
+      <div>
+        <span class="font-greynsmall">
+          <p>請勿利用 Google 表單送出密碼。</p>
+          <br />
+          <p class="text-cen">
+            這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。
+          </p>
+          <p class="text-cen">Does this form look suspicious? 報告</p>
+          <p class="end"><strong>Google</strong>表單</p>
+        </span>
+      </div>
+    </form>
+  </body>
+</html>
