@@ -14,47 +14,61 @@
         <p>僅供新尖兵 F2E02 表單切版練習作業</p>
         <hr />
         <p>
-          <span class="font-blue">登入 Google</span> 即可儲存進度。<span
-            class="font-blue"
-            >瞭解詳情</span
-          >
+          <span class="font-blue">登入 Google</span> 即可儲存進度。<span class="font-blue">瞭解詳情</span>
         </p>
         <hr />
-        <p><span class="font-red">*表示必填問題</span></p>
+        <p>
+          <span class="font-red">*表示必填問題</span>
+        </p>
       </div>
       <div class="question">
-        <p>姓名<span class="font-red">*</span></p>
-        <input type="text" placeholder="您的回答" />
+        <label>
+          <p>姓名<span class="font-red">*</span></p>
+          <input type="text" placeholder="您的回答" required/>
+        </label>
       </div>
       <div class="question">
-        <p>信箱<span class="font-red">*</span></p>
-        <input type="mail" placeholder="您的回答" />
+        <label>
+          <p>信箱<span class="font-red">*</span></p>
+          <input type="mail" placeholder="您的回答" required/>
+        </label>
       </div>
       <div class="question">
-        <p>生日</p>
-        <p><span class="font-greynsmall">日期</span></p>
-        <input type="date" max="2024-12-31" min="2024-01-01"/>
+        <label>
+          <p>生日</p>
+          <p><span class="font-greynsmall">日期</span></p>
+          <input type="date" max="2024-12-31" min="2024-01-01"/>
+        </label>
       </div>
       <div class="question">
-        <p>想跟老師說悄悄話</p>
-        <input type="text" placeholder="您的回答" />
+        <label>
+          <p>想跟老師說悄悄話</p>
+          <textarea name="" id="" placeholder="您的回答" cols="30" rows="1"></textarea>
+        </label>
       </div>
       <div class="question">
         <p>喜歡的顏色</p>
-        <label> <input type="radio" name="color" value="1" />黃 </label><br />
-        <label> <input type="radio" name="color" value="2" />綠 </label><br />
-        <label> <input type="radio" name="color" value="3" />紅 </label>
+        <label>
+          <input type="radio" name="color" value="1" />黃</label><br />
+        <label>
+          <input type="radio" name="color" value="2" />綠</label><br />
+        <label>
+          <input type="radio" name="color" value="3" />紅</label>
       </div>
       <div class="question">
         <p>喜歡吃的飲食類型</p>
-        <label><input type="checkbox" name="eat" value="1" />中式 </label><br />
-        <label><input type="checkbox" name="eat" value="1" />義式 </label><br />
-        <label><input type="checkbox" name="eat" value="1" />日式 </label
-        ><br /><label><input type="checkbox" name="eat" value="1" />韓式 </label
-        ><br /><label><input type="checkbox" name="eat" value="1" />美式 </label
-        ><br /><label
-          ><input type="checkbox" name="eat" value="1" />泰式
-        </label>
+        <label>
+          <input type="checkbox" name="eat" value="1" />中式 </label><br />
+        <label>
+          <input type="checkbox" name="eat" value="1" />義式 </label><br />
+        <label>
+          <input type="checkbox" name="eat" value="1" />日式 </label><br />
+        <label>
+          <input type="checkbox" name="eat" value="1" />韓式 </label><br />
+        <label>
+          <input type="checkbox" name="eat" value="1" />美式 </label><br />
+        <label>
+          <input type="checkbox" name="eat" value="1" />泰式</label>
       </div>
       <div class="question">
         <p>最想去的國家</p>
