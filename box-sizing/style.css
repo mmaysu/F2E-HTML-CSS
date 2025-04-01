@@ -1,0 +1,67 @@
+#mcdonald, .job-out{
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    margin: 10px 10px;
+    width: 575px;
+    outline: solid 1px #CECECE;
+    border-radius: 3px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.text{
+    padding: 10px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.more{
+    background-color: #FFBC0F;
+    padding: 8px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.more:hover{
+    background-color: rgb(183, 236, 243);
+}
+
+
+
+.log-in:hover{
+    color:#305FC0 ;
+}
+
+#jobs{
+    width: 1200px;
+    padding: auto 40px;
+    margin: auto;
+    border-radius: 10px;
+}
+.job{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #CECECE;
+    border-radius: 7px;
+    display: inline-block;
+    font-weight: 1000;
+    width: 225px;
+    box-sizing: content-box;
+}
+
+.orange-text{
+    color: #FF7800;
+}
+
+.blue-text{
+    color: #305FC0;
+}
+
+.title, .log-in{
+    margin: 10px 0px 0px 40px;
+}
