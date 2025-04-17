@@ -92,6 +92,7 @@ header {
   position: fixed;
   top: 0px;
   z-index: 2;
+  box-shadow:1px 0px 5px#5a5a5a;
 }
 /* tag end*/
 button.try{
@@ -103,7 +104,8 @@ button.try{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+
+  margin: 0 auto;
 }
 li {
   display: inline-block;
@@ -120,7 +122,8 @@ li {
   border-radius: 20px;
 }
 .intro-bg {
-  background: url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_首圖.png);
+  background-image: url(/inline-app/bg-img/1.webp) ;
+  aspect-ratio:3000/1100;
   background-size: cover;
   background-position: center;
 }
@@ -129,16 +132,18 @@ div.intro {
   padding: 120px 0px 80px 0px;
 }
 
+
 .world-bg {
-  background: url(https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_country.png);
-  height: 500px;
+  background: url(/inline-app/bg-img/2.webp) ;
+  aspect-ratio:1633/637;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .world p {
   position: absolute;
-  top:800px;
+  top:25%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -155,7 +160,7 @@ div.intro {
   margin-bottom: 70px;
 }
 .feat1-bg {
-  background-image: url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background1.png);
+  background-image: url(/inline-app/bg-img/3.webp) ;
   background-size: cover;
   background-position: center;
 }
@@ -163,14 +168,18 @@ div.intro {
 .feature1 div ,.feature2-1 div, .feature2-2 div, .bottom .left, .bottom .right{
   width: 50%;
 }
-.feature1,.feature2-1, .feature2-2, .bottom, .ff{
+.feature1,.feature2-1, .feature2-2, .bottom{
+  display: flex;
+  align-items: center;
+}
+.ff{
   display: flex;
 }
-
 .feat2-bg {
-  background-image: url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background2.png);
+  background-image: url(/inline-app/bg-img/4.webp) ;
   background-size: cover;
   background-position: center;
+  padding-top: 80px;
 }
 
 
@@ -182,7 +191,7 @@ h1+nav{
 
 }
 .form-bg {
-  background-image: url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_form_background.png);
+  background-image: url(/inline-app/bg-img/5.webp) ;
   background-size: cover;
   background-position: center;
 }
@@ -209,15 +218,14 @@ label>p, input,select{
 .bottom .left,.bottom .right{
   text-align: center;
   flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
   
 }
 .bottom .left{
   border-right: #5a5a5a 1px solid;
-}
-.bottom {
-  height: 100%;
-  display: flex;
 }
 #ccc{
   display: inline;
