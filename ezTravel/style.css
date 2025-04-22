@@ -1,0 +1,124 @@
+header,
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 30px;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.out-ul {
+  display: flex;
+}
+.out-ul > li {
+  padding: 12px 30px;
+}
+.chatbox{
+  position: fixed;
+  background-image: url(img/ezchat.svg);
+  right: 10px;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.qrcode{
+  position: fixed;
+  background-image: url(img/eztravel-app-icon.png);
+  left: 10px;
+  bottom: 10px;
+  width: 80px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: 2px solid #000;
+}
+.ad-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+img {
+  border-radius: 5px;
+  object-fit: contain;
+}
+.ad-img > img:nth-of-type(1) {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.ad-img > img:not(1) {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+div.focus {
+  width: 1100px;
+  height: 330px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.focus-img {
+  border-radius: 5px;
+}
+.focus-img:nth-of-type(1) {
+  background-image: url(img/560x820_20240430FRN.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.focus-img:nth-of-type(2) {
+  background-image: url(img/230x210_20230117.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.focus-img:nth-of-type(3) {
+  background-image: url(img/460x208_2025030601.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.focus-img:nth-of-type(4) {
+  background-image: url(img/1mc1p12000dxbeoy326CA_C_790_444_R5_Q70.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.focus-img:nth-of-type(5) {
+  background-image: url(img/460x420_20250102.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.focus-card {
+  height: 70px;
+  background-color: aquamarine;
+}
+
+/* 做記號 */
+.header1 {
+  background-color: blueviolet;
+}
+.header2 {
+  background-color: darkkhaki;
+}
