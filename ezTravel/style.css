@@ -26,8 +26,33 @@ h1 {
   display: flex;
 }
 .out-ul > li {
-  padding: 12px 0px 12px 30px;
+  padding: 12px 10px 12px 10px;
+  text-align: right;
 }
+.toggle-submenu{
+  display: none;
+}
+.menu{
+  position: relative;
+}
+.submenu-area{
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 48px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.submenu{
+  padding: 10px;
+}
+
+
+.menu:hover .submenu-area {
+  display: block;
+}
+
 .chatbox {
   position: fixed;
   background-image: url(img/ezchat.svg);
@@ -69,6 +94,7 @@ h1 {
   text-align: center;
   padding: 20px 0px;
 }
+
 input {
   width: calc(80% - 20px);
   outline: #11d073 1px solid;
