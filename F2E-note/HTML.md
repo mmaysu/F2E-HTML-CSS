@@ -129,8 +129,8 @@ a[href*="example"] {
 **冷知識：** 在html中輸入&lt xxx &gt，網頁上會呈現< xxx >
 
 ## 🎃參考資料
-外掛：[Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
-插件：[css-loaders](https://css-loaders.com/)
-icon素材：[fontawesome](https://fontawesome.com/)  [CDN](https://cdnjs.com/libraries/font-awesome)
-適合練習切版的網站：[eztravel](https://www.eztravel.com.tw/)
-複製[三角形](https://bennettfeely.com/clippy/)
+- 外掛：[Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
+- 插件：[css-loaders](https://css-loaders.com/)
+- icon素材：[fontawesome](https://fontawesome.com/)  [CDN](https://cdnjs.com/libraries/font-awesome)
+- 適合練習切版的網站：[eztravel](https://www.eztravel.com.tw/)
+- 複製[三角形](https://bennettfeely.com/clippy/)
