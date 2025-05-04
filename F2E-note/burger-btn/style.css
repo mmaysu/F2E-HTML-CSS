@@ -1,0 +1,150 @@
+header {
+  background-color: #9dc3c1;
+}
+
+header nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 60px;
+  position: relative;
+}
+
+section {
+  background-color: #aaa;
+  margin: 100px auto;
+  max-width: 1000px;
+}
+
+.toggle-menu {
+  display: none;
+}
+
+.toggle-menu:checked + .menu-area {
+  display: block;
+  left: 0;
+}
+
+.menu-area {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 100%;
+  right: 0;
+  background-color: #77aaad;
+  padding: 0 10px;
+  transition: all 1s ease-in-out;
+}
+
+.menu {
+  padding: 0 20px;
+  position: relative;
+  color: #d8e6e7;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.menu + .menu {
+  border-top: 1px solid #d8e6e7;
+}
+
+.toggle-submenu {
+  display: none;
+}
+
+.toggle-submenu:checked + .submenu-area {
+  display: block;
+}
+
+.submenu-area {
+  display: none;
+  background-color: #679396;
+}
+.submenu:nth-last-child(1){
+  margin-bottom: 20px;
+}
+.submenu{
+  padding: 0 10px;
+}
+.submenu+.submenu{
+  border-top: 1px solid #d8e6e7;
+}
+.fa-sort-down {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+}
+
+/* header 平板以上 */
+@media (min-width: 768px) {
+  .menu-area {
+    display: flex;
+  }
+
+  .menu-area {
+    position: relative;
+    top: 0;
+    background-color: #9dc3c1;
+  }
+
+  .toggle-menu-btn {
+    display: none;
+  }
+
+  .menu {
+    color: black;
+  }
+
+  .menu + .menu {
+    border-top: none;
+  }
+
+  .menu:hover .submenu-area {
+    display: block;
+  }
+
+  .submenu-area {
+    display: none;
+    position: absolute;
+    background-color: #9dc3c1;
+    width: 100%;
+    top: 70px;
+    left: 20px;
+    text-align: center;
+  }
+
+  .submenu-area::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #9dc3c1;
+  }
+
+  .submenu-area::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -10px;
+    left: -20px;
+  }
+  .fa-sort-down {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
